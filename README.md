@@ -42,6 +42,7 @@ After configuring the database and creating the tables, you can use the login an
 ## Additional Information
 
 For more details on usage or to develop new features, refer to the relevant files and documentation in the project folder.
+The password has to be encrypted in the database.
 
 ## Support
 
