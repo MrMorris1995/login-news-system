@@ -1,0 +1,197 @@
+.success-message, .error-message {
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+.success-message {
+    background-color: #dff0d8;
+    color: #3c763d;
+}
+.error-message {
+    background-color: #f2dede;
+    color: #a94442;
+}
+.hidden {
+    display: none;
+}
+
+/* Allgemeine Stile für den gesamten Body */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-image: url('../images/waves.svg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Container für das Login-Formular */
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: first baseline;
+    width: 100%;
+    height: 100%;
+    margin-top: 80px;
+}
+
+/* Box, die das Formular enthält */
+.login-box {
+    background-color: white;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    max-width: 400px;
+    width: 100%;
+}
+
+/* Das Logo oben im Formular */
+.logo {
+    max-width: 150px;
+    margin-bottom: 30px;
+}
+
+/* Eingabefelder */
+.input-group {
+    margin-bottom: 20px;
+}
+
+.login-box .input-group input {
+    width: 94.5%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+/* Login-Button */
+.login-button {
+    width: 100%;
+    padding: 12px;
+    background-color: #0D2A62;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.login-button:hover {
+    background-color: #1B4E96;
+}
+
+
+/* Container für den Admin-Bereich */
+.admin-container {
+    width: 80%;
+    max-width: 900px;
+    background-color: white;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin: 80px 0;
+}
+
+/* Überschrift für den News-Bereich */
+h2 {
+    font-size: 24px;
+    color: #0D2A62;
+    text-align: left;
+}
+
+#news-list {
+    padding: 0;
+    margin: 0;
+}
+
+/* Box für jede einzelne News */
+.news-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+/* Text der News */
+.news-item-text {
+    text-align: left;
+    flex: 1;
+}
+
+.news-item-text H3,
+.news-item-text P {
+    float: left;
+    line-height: 22px;
+    margin: 0;
+}
+
+.news-item-text P {
+    padding-left: 20px;
+    color: #0D2A62;
+}
+
+/* Container für die Bearbeiten- und Löschen-Buttons */
+.news-item-actions {
+    display: flex;
+    gap: 10px;
+}
+
+/* Bearbeiten-Button */
+.news-item-actions .edit-button {
+    width: 24px;
+    height: 24px;
+    background-image: url('../images/pencil.svg');
+    background-size: cover;
+    cursor: pointer;
+}
+
+/* Löschen-Button */
+.news-item-actions .delete-button {
+    width: 24px;
+    height: 24px;
+    background-image: url('../images/close.svg');
+    background-size: cover;
+    cursor: pointer;
+}
+
+/* Eingabefelder für News-Erstellung und Bearbeitung */
+.input-group {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.input-group input,
+.input-group textarea {
+    width: 94.5%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+/* Buttons für Erstellen und Logout */
+.create-button, .logout-button {
+    width: 100%;
+    padding: 12px;
+    background-color: #0D2A62;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    margin-bottom: 10px;
+    transition: background-color 0.3s;
+}
+
+.create-button:hover, .logout-button:hover {
+    background-color: #1B4E96;
+}
